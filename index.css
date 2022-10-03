@@ -1,0 +1,31 @@
+
+
+.main-container{
+  height: 30%;
+  width: 30%;
+  margin: 5%;
+
+}
+
+.display-box{
+  margin-left: 20%;
+  width: 75%;
+  border-color: black;
+  font-size: 20px;
+}
+
+.btn{
+  box-shadow: 10px 10px 8px #888888;
+  width: 75%;
+}
+
+.error{
+  color: red;
+  text-align: right;
+  display: none;
+}
+
+tr{
+height: 50px;
+width: 100%;
+}
