@@ -20,7 +20,7 @@ for(let i=0;i<exp.length;i++){
 }
 try {
       var q = eval(s);
-      document.getElementById("result").value = q;
+      document.getElementById("result").value = q.toExponential(4);
     }
 catch (e) {
         document.querySelector(".error").style.display="block";
